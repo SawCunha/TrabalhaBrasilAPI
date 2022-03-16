@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /trabalhabrasil
+
+trabalhaBrasil:
+  url: https://www.trabalhabrasil.com.br/api/
+  version: v1.0
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
