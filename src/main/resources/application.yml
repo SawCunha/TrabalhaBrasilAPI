@@ -3,14 +3,18 @@ server:
   servlet:
     context-path: /trabalhabrasil
 
-trabalhaBrasil:
-  url: https://www.trabalhabrasil.com.br/api/
-  version: v1.0
+logging:
+  level:
+    root: debug
 
+trabalhaBrasil:
+  url: https://www.trabalhabrasil.com.br/api/v1.0/
+salarioBR:
+  url: https://salariobr.com/api/
 feign:
   client:
     config:
       default:
-        connectTimeout: 5000
-        readTimeout: 5000
-        loggerLevel: basic
+        connectTimeout: 10000
+        readTimeout: 15000
+        loggerLevel: FULL
