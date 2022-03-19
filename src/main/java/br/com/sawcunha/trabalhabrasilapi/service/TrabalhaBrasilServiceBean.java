@@ -12,7 +12,7 @@ import br.com.sawcunha.trabalhabrasilapi.commons.mapper.JobMapper;
 import br.com.sawcunha.trabalhabrasilapi.commons.mapper.JobParamMapper;
 import br.com.sawcunha.trabalhabrasilapi.commons.mapper.PositionMapper;
 import br.com.sawcunha.trabalhabrasilapi.commons.mapper.PositionParamMapper;
-import br.com.sawcunha.trabalhabrasilapi.feign.trabalhabrasil.SalarioBRClient;
+import br.com.sawcunha.trabalhabrasilapi.feign.salariobr.SalarioBRClient;
 import br.com.sawcunha.trabalhabrasilapi.feign.trabalhabrasil.TrabalhaBrasilClient;
 import br.com.sawcunha.trabalhabrasilapi.model.City;
 import br.com.sawcunha.trabalhabrasilapi.model.Job;

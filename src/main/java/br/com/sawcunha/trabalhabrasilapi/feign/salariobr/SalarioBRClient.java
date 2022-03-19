@@ -1,4 +1,4 @@
-package br.com.sawcunha.trabalhabrasilapi.feign.trabalhabrasil;
+package br.com.sawcunha.trabalhabrasilapi.feign.salariobr;
 
 import br.com.sawcunha.trabalhabrasilapi.configuration.SalarioBRFeingConfiguration;
 import br.com.sawcunha.trabalhabrasilapi.model.PositionParam;

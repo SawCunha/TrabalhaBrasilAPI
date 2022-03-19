@@ -1,0 +1,123 @@
+{
+  "mappings": [
+    {
+      "request": {
+        "method": "GET",
+        "url": "/Cidade/List"
+      },
+      "response": {
+        "status": 200,
+        "body": "[\n          {\n            \"id\": \"1406\",\n            \"descricao\": \"Barbacena / MG\"\n          },\n          {\n            \"id\": \"9183\",\n            \"descricao\": \"Barbada / CE\"\n          },\n          {\n            \"id\": \"642\",\n            \"descricao\": \"Barbalha / CE\"\n          },\n          {\n            \"id\": \"4786\",\n            \"descricao\": \"Águas de Santa Bárbara / SP\"\n          },\n          {\n            \"id\": \"3433\",\n            \"descricao\": \"Nova Santa Bárbara / PR\"\n          },\n          {\n            \"id\": \"9636\",\n            \"descricao\": \"Santa Bárbara / PR\"\n          },\n          {\n            \"id\": \"9835\",\n            \"descricao\": \"Santa Bárbara / RS\"\n          },\n          {\n            \"id\": \"2009\",\n            \"descricao\": \"Santa Bárbara / MG\"\n          },\n          {\n            \"id\": \"539\",\n            \"descricao\": \"Santa Bárbara / BA\"\n          },\n          {\n            \"id\": \"1083\",\n            \"descricao\": \"Santa Bárbara de Goiás / GO\"\n          }\n        ]"
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/job/List"
+      },
+      "response": {
+        "status": 200,
+        "body": [
+          {
+            "id": 8526485,
+            "d": "Precisa-se de pessoas para trabalhar com home office. Fará abertura de contas e recrutamento.\r\ndos pessoas mesmo sem experiência.\r\nDisponibilizamos tr...",
+            "df": "Recrutador",
+            "ne": "Pontocom Consultoria De Inteligência Financeira",
+            "u": "vagas-empregos-em-sao-paulo-sp/recrutador/8526485",
+            "dc": "São Paulo",
+            "uf": "SP",
+            "css": "destaque_amarela",
+            "qv": 30,
+            "pcd": null,
+            "tt": "Vaga de emprego para Recrutador na empresa Pontocom Consultoria De Inteligência Financeira em São Paulo / SP",
+            "pg": 1,
+            "st": 3,
+            "sl": "R$ 1.500,00",
+            "cn": "hide",
+            "ho": true,
+            "ca": false
+          },
+          {
+            "id": 8526486,
+            "d": "Atendimento a novos associados, controle de adesões, preenchimento de relatórios para análise da gerência.",
+            "df": "Consultor de Vendas",
+            "ne": "Rhino Associação Mútua",
+            "u": "vagas-empregos-em-uberlandia-mg/consultor-de-vendas/8526486",
+            "dc": "Uberlândia",
+            "uf": "MG",
+            "css": "destaque_amarela",
+            "qv": 1,
+            "pcd": null,
+            "tt": "Vaga de emprego para Consultor de Vendas na empresa Rhino Associação Mútua em Uberlândia / MG",
+            "pg": 1,
+            "st": 3,
+            "sl": "R$ 1.361,26",
+            "cn": "hide",
+            "ho": true,
+            "ca": false
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "method": "GET",
+        "url": "/Funcoes/converter"
+      },
+      "response": {
+        "status": 200,
+        "body": {
+          "funcoes": [
+            {
+              "id": 3540,
+              "descricao": "Desenvolvedor"
+            },
+            {
+              "id": 9996,
+              "descricao": "Desenvolvedor C#"
+            },
+            {
+              "id": 11634,
+              "descricao": "Desenvolvedor PHP"
+            },
+            {
+              "id": 12306,
+              "descricao": "Desenvolvedor IOS"
+            },
+            {
+              "id": 12286,
+              "descricao": "Desenvolvedor .NET"
+            },
+            {
+              "id": 12290,
+              "descricao": "Desenvolvedor JAVA"
+            },
+            {
+              "id": 12143,
+              "descricao": "Desenvolvedor Mobile"
+            },
+            {
+              "id": 12307,
+              "descricao": "Desenvolvedor Android"
+            },
+            {
+              "id": 12288,
+              "descricao": "Desenvolvedor Frontend"
+            },
+            {
+              "id": 11594,
+              "descricao": "Desenvolvedor de Sistemas"
+            }
+          ],
+          "sugestoes": []
+        }
+      }
+    }
+  ],
+
+  "importOptions": {
+    "duplicatePolicy": "IGNORE",
+    "deleteAllNotInImport": true
+  }
+}
+

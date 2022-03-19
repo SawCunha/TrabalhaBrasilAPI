@@ -1,0 +1,20 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /trabalhabrasil
+
+logging:
+  level:
+    root: debug
+
+trabalhaBrasil:
+  url: http://localhost:9558/
+salarioBR:
+  url: http://localhost:9558/
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 10000
+        readTimeout: 15000
+        loggerLevel: FULL
